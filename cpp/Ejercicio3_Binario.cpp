@@ -11,8 +11,14 @@ struct Nodo {
 };
 
 int calcularAltura(Nodo* raiz) {
-    // TODO: Implementa tu lógica aquí
-    return 0;
+    if (raiz == nullptr) {
+        return 0;
+    }
+
+    int alturaIzquierda = calcularAltura(raiz->izquierdo);
+    int alturaDerecha = calcularAltura(raiz->derecho);
+
+    return 1 + max(alturaIzquierda, alturaDerecha);
 }
 
 int main() {

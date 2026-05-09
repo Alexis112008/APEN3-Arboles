@@ -9,7 +9,19 @@ struct Nodo {
 };
 
 Nodo* invertir(Nodo* raiz) {
-    // TODO: Implementa tu lógica aquí
+    if (raiz == nullptr) {
+        return nullptr;
+    }
+
+    // Intercambiar hijos
+    Nodo* temp = raiz->izquierdo;
+    raiz->izquierdo = raiz->derecho;
+    raiz->derecho = temp;
+
+    // Invertir subárboles
+    invertir(raiz->izquierdo);
+    invertir(raiz->derecho);
+
     return raiz;
 }
 

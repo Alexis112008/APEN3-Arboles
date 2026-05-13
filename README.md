@@ -1,9 +1,9 @@
-# 🌳 Práctica #3 — Árboles (Estructuras de Datos)
+# 🌳 Ape 3 - Arboles
 
 **Asignatura:** Estructura de Datos  
-**Nivel:** Tercero B — Unidad Básica  
+**Nivel:** Tercero B 
 **Docente:** Ing. Jose Caiza, Mg.  
-**Autores:** Nata Analuiza · Walter Alexis
+**Autores:** Alexis Nata
 
 ---
 
